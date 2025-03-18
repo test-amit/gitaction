@@ -8,6 +8,7 @@ test('has title', async ({ page }) => {
   console.log('Second 12:28 PM')
 
   console.log('Second 12:38 PM')
+  console.log('Second 12:50 PM')
 });
 
 test('get started link', async ({ page }) => {
@@ -18,4 +19,9 @@ test('get started link', async ({ page }) => {
 
   console.log('Second 12:38 PM')
   console.log('Second 12:45 PM')
+
+
+
+
+  console.log('Second 12:50 PM')
 });
