@@ -15,6 +15,7 @@ test('get started link', async ({ page }) => {
 
   console.log('Second 12:20 PM')
   console.log('Second 12:28 PM')
-  
+
   console.log('Second 12:38 PM')
+  console.log('Second 12:45 PM')
 });
