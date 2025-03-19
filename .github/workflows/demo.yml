@@ -19,4 +19,4 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run Playwright tests
-        run: npx playwright test example.spec.js --workers=1 --project=chromium
+        run: npx playwright test example.spec.js --workers=1 --project=chromium --reporter=dot
