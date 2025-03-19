@@ -1,5 +1,9 @@
 name: hello-world
-on: push
+on:
+  push:
+    branches:
+      - CI/CD  # Runs only when pushing to the CI/CD branch
+
 jobs:
   my-job:
     runs-on: macos-latest
@@ -19,4 +23,4 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run Playwright tests
-        run: npx playwright test example.spec.js --workers=1 --project=chromium --reporter=dot
+        run: npx playwright test example.spec.js --workers=1 --project=chromium --reporter=dot.
