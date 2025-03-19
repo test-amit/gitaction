@@ -7,6 +7,7 @@ test('has title', async ({ page }) => {
 console.log("Ajit From Odisha And GitAction Process is done with Script First")
 
 console.log("Ajit From Odisha And GitAction Process is done with Script First Checking again")
+console.log("Ajit From Odisha And GitAction Process is done with Script Second Checking again for email")
 });
 
 test('get started link', async ({ page }) => {
@@ -14,6 +15,7 @@ test('get started link', async ({ page }) => {
 
   console.log("Ajit From Odisha And GitAction Process is done with Script Second ")
   console.log("Ajit From Odisha And GitAction Process is done with Script Second Checking again")
+  console.log("Ajit From Odisha And GitAction Process is done with Script Second Checking again for mail")
   
 });
 
